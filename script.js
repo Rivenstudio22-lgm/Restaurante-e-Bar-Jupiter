@@ -39,7 +39,7 @@ for (let i = 1; i <= totalImagens; i++) {
     slideElement.classList.add('slide');
     
     // Caminho da foto baseado no número (ex: imagens/foto1.jpg)
-    slideElement.style.backgroundImage = `url('imagens/foto${i}.jpg')`;
+    slideElement.style.backgroundImage = `url('imagens/foto${i}.jpeg')`;
     
     // Deixa a primeira foto ativa no arranque do site
     if (i === 1) {
