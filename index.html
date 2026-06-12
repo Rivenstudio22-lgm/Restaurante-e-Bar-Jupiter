@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante & Bar Júpiter - Matola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">JÚPITER</div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <button id="btn-menu" class="nav-btn">Menu</button>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- O contentor do Carrossel começa vazio e o script injeta as 30 fotos -->
+    <section class="hero">
+        <div id="hero-slideshow" class="hero-slideshow"></div>
+        
+        <div class="hero-content">
+            <h1>Restaurante & Bar Júpiter</h1>
+            <p>Boa comida, bons amigos e bons momentos na Matola.</p>
+            <button id="btn-hero-menu" class="hero-btn">Ver Cardápio</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>O Espaço</h2>
+        <p>As melhores lembranças são feitas de momentos mágicos e inesquecíveis. O Júpiter proporciona um ambiente único com música ao vivo, karaoke, bar e uma gastronomia de excelência ideal para partilhar com quem mais gosta.</p>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contactos & Reservas</h2>
+        <div class="contact-info">
+            <p>📍 <strong>Endereço:</strong> Avenida Francisco Manyanga, Nº 924, Cidade da Matola, Moçambique</p>
+            <p>📞 <strong>Telefone:</strong> <a href="tel:+258845474859">+258 84 547 4859</a></p>
+            <p>⏰ <strong>Horário:</strong> Seg a Quarta: 08h00 - 21h30 | Quinta a Dom: 08h00 - 23h30</p>
+        </div>
+    </section>
+
+    <div id="menu-overlay" class="menu-overlay">
+        <div class="menu-header">
+            <h2>Nosso Cardápio</h2>
+            <button id="btn-close-menu" class="close-btn">&times; Fechar</button>
+        </div>
+        
+        <div class="menu-body">
+            <p>Consulte as nossas especialidades, petiscos e cocktails premium diretamente abaixo:</p>
+            <div class="pdf-container">
+                <iframe src="seu-menu.pdf" width="100%" height="100%" style="border: none;">
+                    <p>O seu navegador não suporta a visualização de PDFs integrados. 
+                       <a href="seu-menu.pdf" target="_blank" class="download-link">Clique aqui para descarregar o PDF do Menu</a>.
+                    </p>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Restaurante & Bar Júpiter. Todos os direitos reservados para a Matola.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
